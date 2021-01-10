@@ -30,3 +30,10 @@ int* func(int* x, int* y)
     }
     return results;
 }
+/*
+output:
+x + y = 15
+x - y = 5
+x * y = 50
+x / y = 2
+*/
