@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #define    COUNT    4
-char* operations[COUNT] = {"x + y = ","x - y = ","x * y = ","x / y = "};
+const char* operations[COUNT] = {"x + y = ","x - y = ","x * y = ","x / y = "};
 
 int* func(int* x, int* y);
 
